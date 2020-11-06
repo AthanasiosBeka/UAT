@@ -140,6 +140,7 @@ background-color: white;
 }
 
 .header a.logo {
+  margin-left: 20px;
   margin-top:30px;
   font-size: 35px;
   font-weight: bold;
