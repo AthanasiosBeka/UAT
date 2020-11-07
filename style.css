@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+	max-width: 100vw;
+  
+}
+
+#h1Slide2 {
+	font-size: 5.4em;
+		background-color: rgb(234,234,234);
+      color: black;
+}
+
+#h2Slide2 {
+	font-size: 2.4em;
+		background-color: rgb(244,244,244);
+		color: rgb(15,170,40);
+}
+
+ul.courses {
+		display: inline-block;
+	color: rgb(170,15,40);
+		background-color: rgb(234,234,234);
+display: block;
+	text-align: center;
+	font-size: 1.4em;
+
+}
+
+ul.courses li {
+	padding-left: 3em;
+		padding-right: 3em;
+	padding-top: 1em;
+	
+	padding-bottom: 1em;
+}
+.col-33 {
+	display: inline-block;
+	vertical-align: top;
+
+	padding-left: 3em;
+	padding-top: 1em;
+
+
+}
+.logoLast {
+		width: 15rem;
+		
+			padding-left: 1em;
+}
+.row {
+		text-align: center;
+		display: block;
+}
+.col-33 img {
+
+	padding-left: 3em;
+		padding-right: 3em;
+	width: 14em;
+
+	
+	
+}
