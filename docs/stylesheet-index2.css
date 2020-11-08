@@ -4,6 +4,7 @@ margin: 0;
 background-color: white;
 }
 
+
 /*columns*/
 .row{
   width: 100%;
@@ -91,6 +92,7 @@ background-color: white;
 
 .paragraph {
   position: absolute;
+
   top: 50%;
   left: 65%;
   transform: translate(-50%, -50%);
@@ -170,3 +172,79 @@ background-color: white;
   }
 }
 /*header end*/
+
+
+/*Slide 2*/
+
+main{
+  background-image: linear-gradient(white, #808080);
+  margin-top: 100px;
+}
+
+*{
+    box-sizing: border-box;
+	max-width: 100vw;
+}
+
+#h1Slide2 {
+  border-top: 1PX SOLID BLACK;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding-left: 50px;
+  margin-right: auto;
+  display: block;
+  font-size: 5.4em;
+      color: black;
+}
+
+#h2Slide2 {
+  border-bottom: 1px solid black;
+  margin-top: -30px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  display: block;
+  font-size: 2.4em;
+		color: rgb(15,170,40);
+}
+
+ul.courses {
+  padding: 20px;
+    display: inline-block;
+	color: rgb(170,15,40);
+
+display: block;
+	text-align: center;
+	font-size: 1.4em;
+
+}
+
+ul.courses li {
+		padding: 10px;
+    list-style: none;
+}
+.col-33 {
+	display: inline-block;
+	vertical-align: top;
+  margin: 20px;
+  width: 30%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 500px;
+}
+.logoLast {
+		width: 15rem;
+
+			padding-left: 1em;
+}
+.row2 {
+     text-align: center;
+		display: block;
+}
+.col-33 img {
+padding-top: 3em;
+	padding-left: 3em;
+		padding-right: 3em;
+	width: 11em;
+}
