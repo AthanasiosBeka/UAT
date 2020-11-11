@@ -4,6 +4,55 @@ margin: 0;
 background-color: white;
 }
 
+/*------------Side menu------------*/
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 89%;
+  background-color: white;
+	border: 1px solid black;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+	font-family: Oswald;
+	position: static;
+	margin: 10px;
+	padding: 12px;
+	margin-right: 40px;
+	font-size: 22px;
+}
+
+.sidenav a:hover {
+  background-image: linear-gradient(#808080,white);
+	color: black;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin: 10px;
+	padding: 12px;
+	margin-right: 40px;
+}
+
+.sidenav .closebtn {
+  position: relative;
+  top: -30;
+  margin: 10px;
+	padding: 7px
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*----------Side menu end--------------*/
 
 /*columns*/
 .row{
@@ -54,6 +103,12 @@ background-color: white;
   padding-bottom: -20px;
 }
 
+.news h3{
+  font-size: 18px;
+  margin-top: -20px;
+  padding-left: 20px;
+}
+
 .news p{
   line-height: 35px;
   font-size: 20px;
@@ -73,12 +128,19 @@ background-color: white;
   color: white;
 }
 
+.anouncements h3{
+  font-size: 18px;
+  margin-top: -20px;
+  padding-left: 20px;
+  color: white;
+}
+
 .anouncements p{
   line-height: 35px;
   font-size: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   letter-spacing: 0.5px;
   word-spacing: 2px;
   color: white;
@@ -137,7 +199,7 @@ background-color: white;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 25px;
 }
 
@@ -248,3 +310,4 @@ padding-top: 3em;
 		padding-right: 3em;
 	width: 11em;
 }
+/*Slide 2 end*/
