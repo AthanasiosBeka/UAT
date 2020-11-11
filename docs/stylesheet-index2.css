@@ -97,15 +97,27 @@ background-color: white;
 
 
 /*left c*/
-.news h2{
+.news a{
+  color: black;
+  font-style: Oswald;
+  font-weight: bold;
   font-size: 25px;
   padding-left: 20px;
-  padding-bottom: -20px;
+  text-decoration: none;
+}
+
+.news a:hover{
+  color: white;
+  text-decoration: underline;
+  font-style: Oswald;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 20px;
 }
 
 .news h3{
   font-size: 18px;
-  margin-top: -20px;
+  margin-top: 0;
   padding-left: 20px;
 }
 
@@ -121,16 +133,26 @@ background-color: white;
 /*left c*/
 
 /*right c*/
-.anouncements h2{
+.anouncements a{
   font-size: 25px;
   padding-left: 20px;
   padding-bottom: -20px;
   color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.anouncements a:hover{
+  font-size: 25px;
+  text-decoration: underline;
+  padding-left: 20px;
+  padding-bottom: -20px;
+  color: black;
 }
 
 .anouncements h3{
   font-size: 18px;
-  margin-top: -20px;
+  margin-top: 0px;
   padding-left: 20px;
   color: white;
 }
@@ -144,6 +166,7 @@ background-color: white;
   letter-spacing: 0.5px;
   word-spacing: 2px;
   color: white;
+  margin-bottom: 70px;
 }
 /*right c*/
 
