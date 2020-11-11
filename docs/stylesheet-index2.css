@@ -97,6 +97,10 @@ background-color: white;
 
 
 /*left c*/
+.news{
+  height: auto;
+  margin-bottom: 20px;
+}
 .news h2{
   font-size: 25px;
   padding-left: 20px;
@@ -154,7 +158,6 @@ background-color: white;
 
 .paragraph {
   position: absolute;
-
   top: 50%;
   left: 65%;
   transform: translate(-50%, -50%);
