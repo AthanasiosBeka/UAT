@@ -24,10 +24,10 @@
   </div>
 
   <script>
+
     function openNav() {
       document.getElementById("Sidenav").style.display = "block";
     }
-
     function closeNav() {
       document.getElementById("Sidenav").style.display = "none";
     }
@@ -36,12 +36,12 @@
 
 
 <!--header!-->
-    <div class="header">
+    <div class="header" id="Header">
       <img src="imagesUAT/uat-logo.png" class="uat-logo">
       <a class="logo" href="#">University of Advancing Technology</a>
       <div class="header-right">
         <a href="#Degrees">Degrees</a>
-        <a href="#">Latest</a>
+        <a href="#Latest">Latest</a>
         <a href="#" onclick="openNav()" style="color:#aa0e28; text-decoration: underline;">Menu</a>
       </div>
     </div>
@@ -90,8 +90,10 @@ May the force—and your mask—be with you.</p>
 
 <main id="Degrees">
 
-  <h1 id = "h1Slide2"> FIND YOUR FIT </h1>
-  <h2 id = "h2Slide2"> <em>Explore our degrees</em> </h2>
+<div class="hdegrees">
+  <h1 class = "h1Slide2"> FIND YOUR FIT </h1>
+  <h2 class = "h2Slide2"> <em>Explore our <a style="color: rgb(15,170,40);" tabindex="-1" href="https://www.uat.edu/advancing-technology-degrees">degrees</a></em> </h2>
+</div>
  <div class ="row2">
    <div class = "col-33">
 
@@ -171,8 +173,9 @@ May the force—and your mask—be with you.</p>
 </main>
 
 <!--Slide3!-->
-<h1 id = "h1Slide2"> Shaping tomorrow </h1>
-<h2 id = "h2Slide2"> <em> Changing today	</em> </h2>
+<div id="Latest">
+<h1 class = "h1Slide2"> Shaping tomorrow </h1>
+<h2 class = "h2Slide2"> <em> Changing today	</em> </h2>
 <div class="slide3">
 <div class ="row2">
  <div class = "col-33Ny">
@@ -215,20 +218,21 @@ May the force—and your mask—be with you.</p>
  </div>
 </div>
 </div>
+</div>
 
 <footer>
 <img src="./bilder/uat-logo.png" class="footer-logo" >
-<p tabindex="1">TEMPE, AZ 85283-1056<br>
+<p>TEMPE, AZ 85283-1056<br>
   ©2020 University of Advancing Technology<br>
   All Rights Reserved<br>
   Online Brand by FabCom</p>
 <div class="links">
-  <i class="fab fa-instagram-square fa-lg"> <a href="https://www.instagram.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">Instagram</a></i>
-  <i class="fab fa-twitter-square fa-lg" ><a  href="https://twitter.com/?lang=en" style="display:inline-block; margin-left:10px; font-family: Oswald;">Twitter</a></i>
-  <i class="fab fa-facebook-square fa-lg"><a  href="https://www.facebook.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">Facebook</a></i>
-  <i class="fab fa-snapchat-square fa-lg" ><a  href="https://www.snapchat.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">Snapchat</a></i>
-  <i class="fab fa-discord fa-lg" ><a  href="https://discord.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">Discord</a></i>
-  <i class="fab fa-linkedin fa-lg" ><a  href="https://www.linkedin.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">LnkedIn</a></i>
+  <i class="fab fa-instagram-square fa-lg"> <a tabindex="-1" href="https://www.instagram.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">Instagram</a></i>
+  <i class="fab fa-twitter-square fa-lg" ><a tabindex="-1"  href="https://twitter.com/?lang=en" style="display:inline-block; margin-left:10px; font-family: Oswald;">Twitter</a></i>
+  <i class="fab fa-facebook-square fa-lg"><a tabindex="-1" href="https://www.facebook.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">Facebook</a></i>
+  <i class="fab fa-snapchat-square fa-lg" ><a tabindex="-1" href="https://www.snapchat.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">Snapchat</a></i>
+  <i class="fab fa-discord fa-lg" ><a tabindex="-1" href="https://discord.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">Discord</a></i>
+  <i class="fab fa-linkedin fa-lg" ><a tabindex="-1" href="https://www.linkedin.com/" style="display:inline-block; margin-left:10px; font-family: Oswald;">LnkedIn</a></i>
 </div>
 
 
