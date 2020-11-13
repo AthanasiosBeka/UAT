@@ -1,22 +1,30 @@
 body{
 font-family: Oswald;
 margin: 0;
+overflow-x: hidden;
 background-color: white;
+
 }
 
 /*focus*/
 
 
+* {
+
+ max-width: 100vw;
+
+}
 
 /*------------Side menu------------*/
 .sidenav {
   display: none;
   height: 100%;
-  width: 350px;
+
   position: fixed;
   z-index: 1;
+
   top: 0;
-  left: 89%;
+  right: 1;
   background-color: white;
 	border: 1px solid black;
   overflow-x: hidden;
@@ -84,11 +92,14 @@ background-color: white;
 }
 
 .column {
+  margin-left: 15px;
   float: left;
   width: 49%;
   padding: 10px;
   margin-right: 15px;
-  margin-left: 15px;
+
+
+  overflow-y: hidden;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -112,10 +123,14 @@ background-color: white;
   .paragraph{
     width: 100%;
     height: 200px;
+
+	line-height: 70%;
+	max-height: 40vh;
   }
   .column {
     width: 100%;
     margin-left: 0px;
+
   }
   .row{
     display: block;
@@ -249,9 +264,11 @@ background-color: white;
   margin-left: 70px;
 }
 
+
 .header {
   padding: 10px;
   overflow: hidden;
+  text-align: center;
   background-color: #9c9c9c;
   background-image: linear-gradient(#808080, white);
   position: sticky;
@@ -259,15 +276,15 @@ background-color: white;
 }
 
 .header a {
-  margin-right: 70px;
-  margin-top:30px;
   float: left;
+  margin-top:30px;
   color: #0f0f0f;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 22px;
   line-height: 25px;
+  margin-right: 40px;
 }
 
 .header a:focus {
@@ -279,11 +296,14 @@ background-color: white;
 
 
 .header a.logo {
-  margin-left: 20px;
-  margin-top:30px;
-  font-size: 35px;
+
   font-weight: bold;
   position: relative;
+}
+
+.header-right{
+  float: right;
+  margin-left: 20px;
 }
 
 .header-right a:hover {
@@ -292,31 +312,11 @@ background-color: white;
   border: 1px solid black;
 }
 
-
-.header-right {
-  float: right;
-  display: flex;
+header * {
+ display: inline-block;
+ font-size: 1vw;
+ text-align: center;
 }
-
-@media screen and (max-width: 700px) {
-  .header .uat-logo{
-    margin: auto;
-    display: block;
-  }
-
-  .header a {
-    float: none;
-    text-align: center;
-  }
-  .header-right {
-    float: none;
-  }
-
-  .header a .logo{
-    font-size: 1em;
-  }
-}
-/*header end*/
 
 
 /*------------------------Slide 2------------------------*/
@@ -337,8 +337,7 @@ main{
   border-top: 1PX SOLID BLACK;
   margin-top: 30px;
   margin-bottom: 0;
-  padding-left: 50px;
-  margin-right: auto;
+  padding-left: 2.6vw;
   display: block;
   font-size: 5.4em;
       color: black;
@@ -362,14 +361,19 @@ main{
   text-decoration: none
 }
 
+.courseTitle{
+  font-size: 1em;
+}
+
 ul.courses {
   padding: 20px;
+
     display: inline-block;
 	color: rgb(170,15,40);
 
 display: block;
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 1em;
 
 }
 
@@ -380,18 +384,20 @@ ul.courses li {
 .col-33 {
 	display: inline-block;
 	vertical-align: top;
-  margin: 20px;
-  width: 30%;
+  margin: 1em;
+  width: 20vw;
+  font-size: 1.5vw;
   background-color: white;
   border: 1px solid black;
   border-radius: 4px;
-  height: 500px;
+
+
 }
 .logoLast {
 		width: 15rem;
-
 			padding-left: 1em;
 }
+
 .row2 {
      text-align: center;
 		display: block;
@@ -400,7 +406,7 @@ ul.courses li {
 padding-top: 3em;
 	padding-left: 3em;
 		padding-right: 3em;
-	width: 11em;
+	width: 9em;
 }
 
 /*----------------------Slide 2 end--------------------*/
@@ -422,7 +428,7 @@ ul.courses2 {
  color: rgb(170,15,40);
  display: block;
  text-align: center;
-f ont-size: 1.4em;
+font-size: 1.4em;
 
 }
 
@@ -430,7 +436,7 @@ ul.courses2 li {
 		padding: 10px;
     list-style: none;
 }
-.col-332 {
+.col-33 {
 	display: inline-block;
 	vertical-align: top;
   margin: 20px;
@@ -438,7 +444,7 @@ ul.courses2 li {
   background-color: white;
   border: 1px solid black;
   border-radius: 4px;
-  height: 500px;
+
 }
 .col-33Ny {
 	display: inline-block;
@@ -459,6 +465,7 @@ ul.courses2 li {
 		padding-left: 1em;
 }
 
+
 .row2 {
     text-align: center;
 		display: block;
@@ -477,7 +484,7 @@ ul.courses2 li {
 /*------------------------------Slide3 end-----------------------------*/
 
 /*-----------------footer---------------------------*/
-footer{
+.r{
   border-top: 1px solid black;
 }
 
@@ -486,11 +493,12 @@ footer p {
   margin-left: auto;
   margin-right: auto;
   display: block;
+
   margin-bottom: 20px;
 }
 
 .footer-logo{
-  width: 6%;
+  width: 7vw;
   margin-top: 20px;
   margin-bottom: -30px;
   margin-left: auto;
