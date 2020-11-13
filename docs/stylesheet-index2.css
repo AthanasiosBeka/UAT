@@ -342,11 +342,6 @@ main{
       color: black;
 }
 
-h1:focus{
-  background-color: #fff82b;
-  color: black;
-
-}
 
 .h2Slide2 {
   border-bottom: 1px solid black;
